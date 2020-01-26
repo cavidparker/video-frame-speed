@@ -6,7 +6,7 @@ import argparse
 import imutils
 import time
 import cv2
- 
+# python read_frames_fast.py --video /home/cavid/Desktop/R&D/video frame speed ups and down/test2.mp4
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-v", "--video", required=True,
@@ -50,4 +50,3 @@ print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
 cv2.destroyAllWindows()
 fvs.stop()	
 
-# python read_frames_fast.py --video /home/cavid/Desktop/R & D/video frame speed ups and down/test2.mp4
